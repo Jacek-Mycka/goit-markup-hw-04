@@ -284,6 +284,46 @@ body {
   margin: 0 0 72px 0;
 }
 
+/* Section 2 - our advantages */
+/* Section 2 - our advantages */
+
+.advantages-list{
+  display: flex;
+  gap: 24px;
+}
+
+.advantages-list-item {
+  max-width: 264px;
+  flex-basis: calc((100% - 72px) / 4);
+}
+
+.advantages-icons{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 112px;
+  background-color: #f4f4fd;
+  border-radius: 4px; 
+  margin-bottom: 8px;
+}
+
+.our-advantages {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue-color);
+  margin: 0 0 8px 0;
+}
+
+.advantages-description {
+  color: var(--slate-color);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  margin: 0 0 8px 0;
+}
+
 /* Section 4 - Team Cards  */
 .team-section-background {
   background-color: var(--cloud-color);
@@ -323,28 +363,6 @@ p.employee-specialization {
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
-}
-
-/* Section 2 - our advantages */
-.advantages-list {
-  flex-basis: calc((100% - 72px) / 4);
-}
-
-.our-advantages {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: var(--navy-blue-color);
-  margin: 0 0 8px 0;
-}
-
-.advantages-description {
-  color: var(--slate-color);
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  margin: 0;
 }
 
 .employee-name {

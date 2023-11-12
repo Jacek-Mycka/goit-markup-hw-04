@@ -575,31 +575,22 @@ p.employee-specialization {
 }
 
 /* Footer */
-/* .footer-attributes {
-  display: flex;
-  width: 1440px;
-  min-width: 1440px;
-  background-color: var(--navy-blue-color);
-  padding: 100px 0;
-  margin: 0 auto;
- } */
-
 .footer-container {
   display: flex;
   align-items: baseline;
+  justify-content: flex-start;
   width: 1440px;
   min-width: 1440px;
   background-color: var(--navy-blue-color);
   padding: 100px 0;
   margin: 0 auto;
- 
 }
 
 .footer-logo-and-description {
   width: 264px;
   height: 112px;
   margin-left: 156px;
-margin-right: 120px;
+  margin-right: 120px;
 }
 
 .footer-link {

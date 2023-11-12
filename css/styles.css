@@ -55,6 +55,10 @@ body {
   background-color: var(--white-color);
 }
 
+img {
+  display: block;
+}
+
 /* header */
 .page-header {
   margin: 0 auto;
@@ -199,10 +203,6 @@ body {
 
 .list-item {
   flex-basis: calc((100% - 48px) / 3);
-}
-
-.list-of-advantages {
-  flex-basis: calc((100% - 48px) / 4);
 }
 
 .list-3 {
@@ -389,10 +389,6 @@ p.employee-specialization {
   letter-spacing: 0.32px;
 }
 
-img {
-  display: block;
-}
-
 .application-name-and-category {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
@@ -573,10 +569,8 @@ img {
 
 .portfolio-link:hover,
 .portfolio-link:focus {
-  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
-
-  Show 1 more color
-  
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .application-name-and-category {

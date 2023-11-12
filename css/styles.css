@@ -578,7 +578,6 @@ p.employee-specialization {
 .footer-container {
   display: flex;
   align-items: baseline;
-  justify-content: flex-start;
   width: 1440px;
   min-width: 1440px;
   background-color: var(--navy-blue-color);

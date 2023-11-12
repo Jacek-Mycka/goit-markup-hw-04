@@ -587,19 +587,18 @@ p.employee-specialization {
 .footer-container {
   display: flex;
   align-items: baseline;
-  justify-content: ;
   width: 1440px;
   min-width: 1440px;
   background-color: var(--navy-blue-color);
   padding: 100px 0;
   margin: 0 auto;
+  gap: 120px;
 }
 
 .footer-logo-and-description {
   width: 264px;
   height: 112px;
   margin-left: 156px;
-  margin-right: 120px;
 }
 
 .footer-link {
@@ -626,7 +625,7 @@ p.employee-specialization {
   flex-direction: column;
   width: 208px;
   height: 80px;
- }
+}
 
 .footer-social-media-icons-header {
   color: var(--white-color, #ffffff);

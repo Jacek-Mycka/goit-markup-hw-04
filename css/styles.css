@@ -441,11 +441,11 @@ p.employee-specialization {
 }
 
 .social-media-link {
+  width: 100%;
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%;
-  height: 100%;
   border: 1px solid transparent;
   border-radius: 50%;
   background-color: var(--iris-color, #4d5ae5);
@@ -453,7 +453,7 @@ p.employee-specialization {
 
 .social-media-link:hover,
 .social-media-link:focus {
-  background-color: var(--green-color, #31d0aa);
+  background-color: var( --ocean-color, #404bbf);
 }
 
 .social-media-icon {

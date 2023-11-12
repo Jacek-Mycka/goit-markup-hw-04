@@ -1,15 +1,7 @@
 *,
 *::before,
 *::after {
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6,
-  p {
-    margin: 0;
-  }
+  
   img {
     display: block;
     max-width: 100%;
@@ -47,7 +39,18 @@
   --grey-color: #2e2f42b2;
   --white-color: #ffffff;
   --dairy-color: #fcfcfc;
+  
 }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p {
+    margin: 0;
+  }
 
 body {
   font-family: "Roboto", sans-serif;
@@ -583,20 +586,18 @@ p.employee-specialization {
 }
 
 /* Footer */
-.footer-container {
-  display: flex;
-  align-items: baseline;
-  width: 1440px;
-  min-width: 1440px;
-  background-color: var(--navy-blue-color);
+.footer-attributes {
+  background: var(--navy-blue-color);
   padding: 100px 0;
   margin: 0 auto;
 }
 
+.footer-container {
+  display: flex;
+  align-items: baseline;
+}
+
 .footer-logo-and-description {
-  width: 264px;
-  height: 112px;
-  margin-left: 156px;
   margin-right: 120px;
 }
 
@@ -668,3 +669,19 @@ p.employee-specialization {
   height: 16px;
   fill: var(--cloud-color, #f4f4fd);
 }
+
+/* .footer {
+    background: var(--navy-blue-color);
+
+flex-shrink: 0;
+}
+.footer-studio {
+    color: var(--cloud-color);
+}
+
+
+.general-container-footer {
+    display: flex;
+    align-items: baseline;
+   
+} */

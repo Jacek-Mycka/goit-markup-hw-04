@@ -592,7 +592,7 @@ p.employee-specialization {
   background-color: var(--navy-blue-color);
   padding: 100px 0;
   margin: 0 auto;
-  gap: 120px;
+  row-gap: 120px;
 }
 
 .footer-logo-and-description {
